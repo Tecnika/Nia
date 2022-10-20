@@ -1,0 +1,37 @@
+div {
+    border: 1px solid;
+    min-width: 10px;
+    min-height: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+}
+
+.info {
+    width: 400px;
+}
+.all_info, .content, .menu {
+    flex-grow: 1;
+}
+
+.horizontally {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.vertically {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.container {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    background: #efefef; 
+}
